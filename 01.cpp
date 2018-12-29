@@ -9,10 +9,9 @@ int main()
   {
 	 scanf("%d", &array[i]);
 	}
-	printf("Unique Elements\n");
-  for(i = 0; i <size; i++)
-	{
-	for (j=0; j<i; j++)
+	printf("unique elements\n");
+
+	for (j=0; j<=i; j++)
 	{
 	if (array[j] == array[i])
 	break;
